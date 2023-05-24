@@ -8,5 +8,6 @@
 #define MAXTAM (800+2)
 
 int main(int argc, char *argv[]) {
-  ... complete ...
+  // Lectura del archivo
+   FILE *ptr = fopen(argv[1], "r");
 }
